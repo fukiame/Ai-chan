@@ -5,7 +5,7 @@ import (
 
 	"github.com/PaulSonOfLars/gotgbot/v2"
 	"github.com/dgraph-io/ristretto"
-	"github.com/divideprojects/Alita_Robot/alita/config"
+	"github.com/fukiame/Ai-chan/ai/config"
 	"github.com/eko/gocache/lib/v4/cache"
 	"github.com/eko/gocache/lib/v4/marshaler"
 	redis_store "github.com/eko/gocache/store/redis/v4"

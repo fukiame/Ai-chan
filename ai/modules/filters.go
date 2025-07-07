@@ -11,18 +11,18 @@ import (
 	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers/filters/message"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/divideprojects/Alita_Robot/alita/utils/chat_status"
-	"github.com/divideprojects/Alita_Robot/alita/utils/decorators/misc"
+	"github.com/fukiame/Ai-chan/ai/utils/chat_status"
+	"github.com/fukiame/Ai-chan/ai/utils/decorators/misc"
 
 	"github.com/PaulSonOfLars/gotgbot/v2"
 	"github.com/PaulSonOfLars/gotgbot/v2/ext"
 
-	"github.com/divideprojects/Alita_Robot/alita/db"
+	"github.com/fukiame/Ai-chan/ai/db"
 
-	"github.com/divideprojects/Alita_Robot/alita/utils/extraction"
-	"github.com/divideprojects/Alita_Robot/alita/utils/helpers"
+	"github.com/fukiame/Ai-chan/ai/utils/extraction"
+	"github.com/fukiame/Ai-chan/ai/utils/helpers"
 
-	"github.com/divideprojects/Alita_Robot/alita/utils/string_handling"
+	"github.com/fukiame/Ai-chan/ai/utils/string_handling"
 )
 
 var filtersModule = moduleStruct{

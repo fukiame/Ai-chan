@@ -14,9 +14,9 @@ import (
 	"github.com/PaulSonOfLars/gotgbot/v2/ext"
 	"github.com/google/uuid"
 
-	"github.com/divideprojects/Alita_Robot/alita/db"
-	"github.com/divideprojects/Alita_Robot/alita/utils/chat_status"
-	"github.com/divideprojects/Alita_Robot/alita/utils/error_handling"
+	"github.com/fukiame/Ai-chan/ai/db"
+	"github.com/fukiame/Ai-chan/ai/utils/chat_status"
+	"github.com/fukiame/Ai-chan/ai/utils/error_handling"
 )
 
 // ExtractChat extracts the chat from the message.

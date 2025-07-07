@@ -9,9 +9,9 @@ import (
 	"github.com/PaulSonOfLars/gotgbot/v2/ext/handlers"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/divideprojects/Alita_Robot/alita/utils/chat_status"
-	"github.com/divideprojects/Alita_Robot/alita/utils/extraction"
-	"github.com/divideprojects/Alita_Robot/alita/utils/helpers"
+	"github.com/fukiame/Ai-chan/ai/utils/chat_status"
+	"github.com/fukiame/Ai-chan/ai/utils/extraction"
+	"github.com/fukiame/Ai-chan/ai/utils/helpers"
 )
 
 var mutesModule = moduleStruct{moduleName: "Mutes"}
