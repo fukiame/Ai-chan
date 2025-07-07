@@ -25,7 +25,7 @@ func (moduleStruct) logUsers(bot *gotgbot.Bot, ctx *ext.Context) error {
 	repliedMsg := msg.ReplyToMessage
 
 	if user.IsAnonymousChannel() {
-		log.Infof("Updatting channel %d in db", user.Id())
+		log.Infof("Updating channel %d in db", user.Id())
 		// update when users send a message
 		go db.UpdateChannel(
 			user.Id(),
@@ -43,7 +43,7 @@ func (moduleStruct) logUsers(bot *gotgbot.Bot, ctx *ext.Context) error {
 			)
 		}
 
-		log.Infof("Updatting user %d in db", user.Id())
+		log.Infof("Updating user %d in db", user.Id())
 		// update when users send a message
 		go db.UpdateUser(
 			user.Id(),
@@ -54,7 +54,7 @@ func (moduleStruct) logUsers(bot *gotgbot.Bot, ctx *ext.Context) error {
 
 	// update is message is replied
 	if repliedMsg != nil {
-		log.Infof("Updatting %d in db", repliedMsg.GetSender().Id())
+		log.Infof("Updating %d in db", repliedMsg.GetSender().Id())
 		if repliedMsg.GetSender().IsAnonymousChannel() {
 			go db.UpdateChannel(
 				repliedMsg.GetSender().Id(),
