@@ -20,15 +20,6 @@ var languagesModule = moduleStruct{moduleName: "Languages"}
 
 func (moduleStruct) genFullLanguageKb() [][]gotgbot.InlineKeyboardButton {
 	keyboard := helpers.MakeLanguageKeyboard()
-	keyboard = append(
-		keyboard,
-		[]gotgbot.InlineKeyboardButton{
-			{
-				Text: "Help Us Translate 🌎",
-				Url:  "https://crowdin.com/project/alita_robot",
-			},
-		},
-	)
 	return keyboard
 }
 

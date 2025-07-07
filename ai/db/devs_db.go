@@ -85,7 +85,7 @@ func LoadAllStats() string {
 	notesNum, notesChats := LoadNotesStats()
 	numChannels := LoadChannelStats()
 
-	result := "<u>Alita's Stats:</u>" +
+	result := "<u>Ai-chan's Stats:</u>" +
 		fmt.Sprintf("\n\nGo Version: %s", runtime.Version()) +
 		fmt.Sprintf("\nGoroutines: %s", humanize.Comma(int64(runtime.NumGoroutine()))) +
 		fmt.Sprintf("\n<b>Antiflood:</b> enabled in %s chats", humanize.Comma(antiCount)) +

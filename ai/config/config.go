@@ -89,7 +89,7 @@ func init() {
 	}
 	// set default db_name
 	if MainDbName == "" {
-		MainDbName = "Alita_Robot"
+		MainDbName = "aichan"
 	}
 
 	// redis config

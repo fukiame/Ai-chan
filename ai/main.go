@@ -1,4 +1,4 @@
-package alita
+package ai
 
 import (
 	"fmt"
