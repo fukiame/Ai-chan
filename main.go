@@ -37,7 +37,7 @@ func main() {
 	}
 
 	// some initial checks before running bot
-	alita.InitialChecks(b)
+	ai.InitialChecks(b)
 
 	// Create updater and dispatcher with limited max routines
 	dispatcher := ext.NewDispatcher(&ext.DispatcherOpts{
@@ -89,18 +89,18 @@ func main() {
 	}
 
 	// Loading Modules
-	alita.LoadModules(dispatcher)
+	ai.LoadModules(dispatcher)
 
 	// list modules from modules dir
 	log.Infof(
 		fmt.Sprintf(
-			"[Modules] Loaded modules: %s", alita.ListModules(),
+			"[Modules] Loaded modules: %s", ai.ListModules(),
 		),
 	)
 
 	// send message to log group
 	_, err = b.SendMessage(config.MessageDump,
-		fmt.Sprintf("<b>Started Bot!</b>\n<b>Mode:</b> %s\n<b>Loaded Modules:</b>\n%s", config.WorkingMode, alita.ListModules()),
+		fmt.Sprintf("<b>Started Bot!</b>\n<b>Mode:</b> %s\n<b>Loaded Modules:</b>\n%s", config.WorkingMode, ai.ListModules()),
 		&gotgbot.SendMessageOpts{
 			ParseMode: helpers.HTML,
 		},
