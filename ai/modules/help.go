@@ -85,12 +85,6 @@ var (
 			},
 			{
 				{
-					Text: "➕ Add me to chat!",
-					Url:  fmt.Sprintf("https://t.me/%s?startgroup=botstart", b.Username),
-				},
-			},
-			{
-				{
 					Text:         "📚 Commands & Help",
 					CallbackData: "helpq.Help",
 				},
