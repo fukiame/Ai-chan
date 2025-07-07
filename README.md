@@ -1,14 +1,14 @@
 # Alita_Robot
 
 <p align='center'>
-  <a href="https://github.com/divideprojects/Alita_Robot/actions/workflows/ci.yml"><img src="https://github.com/divideprojects/Alita_Robot/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/divideprojects/Alita_Robot/actions/workflows/release.yml" alt="made-with-go"> <img src="https://github.com/divideprojects/Alita_Robot/actions/workflows/release.yml/badge.svg" alt="Release"/> </a>
+  <a href="https://github.com/fukiame/Ai-chan/actions/workflows/ci.yml"><img src="https://github.com/fukiame/Ai-chan/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/fukiame/Ai-chan/actions/workflows/release.yml" alt="made-with-go"> <img src="https://github.com/fukiame/Ai-chan/actions/workflows/release.yml/badge.svg" alt="Release"/> </a>
 </p>
 
 
 <p align='center'>
   <a href="https://go.dev/" alt="made-with-go"> <img src="https://img.shields.io/badge/Made%20with-Go-1f425f.svg?style=flat-square&logo=Go&color=blue" /> </a>
-  <a href="https://deepsource.io/gh/DivideProjects/Alita_Robot/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a>
+  <a href="https://deepsource.io/gh/fukiame/Ai-chan/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a>
   <a href="https://makeapullrequest.com" alt="PRs Welcome"> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> </a>
 </p>
 
@@ -60,7 +60,7 @@ It really motivates me to continue this project further.
 - Now go to the deploy tab of your app and under deployment method select GitHub and connect it.
 - after that, type the forked repo name and select it now select main branch and enable auto deploy, at last click on deploy now button!
 </h3>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/divideprojects/Alita_Robot"> <img src="https://img.shields.io/badge/Redirect%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/fukiame/Ai-chan"> <img src="https://img.shields.io/badge/Redirect%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
 
 - Lastly, you must fill up all the vars in heroku (if using heroku) as directed in app.json file and now turn on the worker dyno to run it `:)`
 
@@ -70,14 +70,14 @@ It really motivates me to continue this project further.
 - `MESSAGE_DUMP` : must be start with `-100` or your bot added in as **admin**
 ### Traditional
 
-- Download a binary from [releases](https://github.com/divideprojects/Alita_Robot/releases) page specific to your PC.
+- Download a binary from [releases](https://github.com/fukiame/Ai-chan/releases) page specific to your PC.
 - Set the required env variables and run the binary
 
 **Note:** Not a lot of people may be able to run using this because the instructions aren't clear but I'll try to make it clear in future.
 
 ### Docker
 
-We currently publish a `ghcr.io/divideprojects/alita_robot` Docker image based on alpine.
+We currently publish a `ghcr.io/fukiame/Ai-chan` Docker image based on alpine.
 
 Set the Environmental vars using the `-e` flag in while running the container.
 
@@ -121,4 +121,4 @@ gpg --verify alita_robot_2.0.1_darwin_amd64.tar.gz.sig alita_robot_2.0.1_darwin_
 ### Copyright & License
 
 * Copyright (C) 2020-2023 by [Divkix](https://divkix.me) ❤️️
-* Licensed under the terms of the [GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/divideprojects/Alita_Robot/blob/master/LICENSE)
+* Licensed under the terms of the [GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/fukiame/Ai-chan/blob/master/LICENSE)

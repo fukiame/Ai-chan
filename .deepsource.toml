@@ -15,7 +15,7 @@ name = "secrets"
 name = "go"
 
 [analyzers.meta]
-import_root = "github.com/divideprojects/Alita_Robot"
+import_root = "github.com/fukiame/Ai-chan"
 
 [[transformers]]
 name = "gofumpt"
